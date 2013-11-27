@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gbs="http://books.google.com/gbs" xmlns:PREMIS="info:lc/xmlns/premis-v2" xmlns:marc="http://www.loc.gov/MARC21/slim" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd
+                               http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd
+                               info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/premis.xsd" OBJID="ONB_+Z35072001" PROFILE="gbs">
+	<METS:metsHdr ID="HDR1" CREATEDATE="2011-08-24T07:17:38" RECORDSTATUS="NEW">
+		<METS:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+			<METS:name>Google</METS:name>
+		</METS:agent>
+	</METS:metsHdr>
+	<METS:dmdSec ID="DMDMARC" xmlns="http://www.loc.gov/MARC21/slim">
+		<METS:mdWrap MIMETYPE="text/xml" MDTYPE="MARC" LABEL="Source MARC record">
+			<METS:xmlData>
+				<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim
+http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+					<leader>     nam  2200000 u 4500</leader>
+					<controlfield tag="001">AC03009537</controlfield>
+					<controlfield tag="008">000720s1749                  |||</controlfield>
+					<controlfield tag="005">20070908</controlfield>
+					<datafield tag="760" ind1="0" ind2=" ">
+						<subfield code="o">AC03009531</subfield>
+					</datafield>
+					<controlfield tag="007">zz|||||||||||||||||||||</controlfield>
+					<datafield tag="245" ind1="0" ind2="0">
+						<subfield code="n">1</subfield>
+						<subfield code="a">Complectens Veteris Testamenti Legem, Et Legis Historiam</subfield>
+					</datafield>
+					<datafield tag="260" ind1=" " ind2=" ">
+						<subfield code="c">1749</subfield>
+					</datafield>
+					<datafield tag="300" ind1=" " ind2=" ">
+						<subfield code="a">[14] Bl., 844 S.</subfield>
+					</datafield>
+					<datafield tag="955" ind1=" " ind2=" ">
+						<subfield code="1">ZALT</subfield>
+						<subfield code="2">MAG</subfield>
+						<subfield code="b">+Z35072001</subfield>
+						<subfield code="4">304480-D.1</subfield>
+					</datafield>
+				</record>
+			</METS:xmlData>
+		</METS:mdWrap>
+	</METS:dmdSec>
+	<METS:amdSec>
+		<METS:techMD ID="TMD1">
+			<METS:mdWrap LABEL="production notes" MDTYPE="OTHER" OTHERMDTYPE="Google Production Notes">
+				<METS:xmlData>
+					<gbs:productionNotes>
+						<gbs:badPages>35.61</gbs:badPages>
+						<gbs:missingPages>0.00</gbs:missingPages>
+						<gbs:tightBoundPages>0.00</gbs:tightBoundPages>
+					</gbs:productionNotes>
+				</METS:xmlData>
+			</METS:mdWrap>
+		</METS:techMD>
+	</METS:amdSec>
+	<METS:structMap ID="SM1" TYPE="physical">
+		<METS:div TYPE="volume" ADMID="TMD1">
+			<METS:div TYPE="page" ORDER="1" ADMID="FRONT_COVER IMPLICIT_PAGE_NUMBER">
+				<METS:fptr FILEID="IMG00000001" />
+			</METS:div>
+		</METS:div>
+	</METS:structMap>
+</METS:mets>
